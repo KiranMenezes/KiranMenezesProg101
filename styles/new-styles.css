@@ -1,0 +1,39 @@
+header {
+    background-color: lightyellow;
+}
+
+header p {
+    font-weight: bold;
+    color: blue;
+     text-align: left;
+}
+            
+
+.byline {
+    color: black;
+    font-style: italic;
+    font-family: Arial;
+    font-size: 100; 
+}
+
+main {
+    background-color: lightgray;
+}
+
+footer {
+    font-style: oblique;
+    background-color: lightgreen;
+    text-align: right;
+}
+
+footer ul {
+        text-align: left;
+}
+
+figure {
+    float: left;
+    background-color:lightskyblue;
+    border: black solid thin;
+    padding: 5px;   
+}  
+     
