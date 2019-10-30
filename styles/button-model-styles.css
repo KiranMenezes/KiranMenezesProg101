@@ -1,0 +1,23 @@
+.btn-left-pad {
+    padding-left: 25px;                   
+}
+
+.btn-right-pad {
+padding-right: 25px;
+}
+
+.btn-top-bottom-pad {
+padding-top: 25px;
+padding-bottom: 25px;
+}
+
+.btn-padding-verbose {
+padding-left: 25px;
+padding-right: 25px;
+padding-top: 25px;
+padding-bottom: 25px;
+}
+
+.btn-padding-concise {
+padding: 25px;
+}
