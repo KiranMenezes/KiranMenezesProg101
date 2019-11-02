@@ -48,4 +48,4 @@ if (( x < 1 ) && ( 5 === y )) {
     console.log("PASSED: x is smaller than one and 5 equals y")
 } else {
     console.log("FAILED: x is not smaller than one or 5 does not equal y")
-}
+}   
