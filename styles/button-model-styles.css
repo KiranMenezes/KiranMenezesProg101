@@ -1,3 +1,14 @@
+aside {        
+    background-color: bisque;
+    border: black 1px solid;
+    border-radius: 8px;
+    float: right;
+    font-style: italic;
+    margin-right: 5px;
+    padding: 8px;
+    width: 33%;        
+}
+
 .btn-left-pad {
     padding-left: 25px;                   
 }
@@ -20,4 +31,66 @@ padding-bottom: 25px;
 
 .btn-padding-concise {
 padding: 25px;
+}
+
+.btn-padding {
+    padding: 10px;
+    border: 10px green double;
+    border-radius: 20px;
+}
+
+.btn-padding:hover {
+    background-color: aqua;
+    border-color: white;
+}
+
+.btn-padding:active {
+    background-color: orange;
+    border-color: blue;
+}
+
+.btn-paddingBig {
+    padding: 25px;
+    border: 7px blue dotted;
+    margin: 35px;
+}
+
+.btn-paddingBig:hover {
+    background-color: lightgreen;
+    border-color: rgb(14, 13, 13);
+}
+
+.btn-paddingBig:active {
+    background-color: darkorchid;
+    border-color: white;
+}
+
+.btn-paddingSmall {
+    padding: 5px;
+    border: 2px black groove;
+    margin: 5px;
+}
+
+.btn-paddingSmall:hover {
+    background-color: red;
+    border-color: rgba(22, 14, 14, 0);
+}
+
+.btn-paddingSmall:active {
+    background-color: sienna;
+    border-color: yellow;
+}
+
+div {
+    display: inline-block;
+}
+
+.elf-div-border {
+    border: 1px black solid;
+}
+
+.listBorder {
+    border: 4px purple dashed;
+    border-radius: 10px;
+    padding: 20px;
 }
