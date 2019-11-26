@@ -42,7 +42,7 @@ functionParameters("Many functions take parameters.");
     console.log(returnValue); 
 
     const result = add(2, 3);
-
+ 
     console.log(result);
 
     const elfCode = {
