@@ -7,6 +7,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>JavaScript Arrays</title>
     <script src="javascript-arrays.js"></script>
+    <link rel="stylesheet" href="../styles/button-model-styles.css">
+    <link rel="stylesheet" href="../styles/navigation-styles.css">
 </head>
 
 <body>
@@ -15,15 +17,46 @@
     </header>
 
     <nav>
-
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+        </ul>
     </nav>
 
     <main>
-        <ul id="numbers-display">
+        <h2>Page Description</h2>
+        <p class="twentyptfont">When you click the button an event is fired that causes the onclick code to run. Inside
+            the onclick method the
+            code is displaying a list.
+            First the code clears the list in case there is any old material, then the code sorts the elements within an
+            array. After that, the code
+            iterates over the array. In each iteration the code is creating a list item, after the list item is created,
+            it gets added to the list.
+        </p>
+        <p class="twentyptfont">
+            The first button diplays numbers, sorted in ascending order.
+            The second button displays names of programming languages, sorted alphebetically.
+            The third button displays names of the programming languages, sorted by popularity.
+        </p>
+        <h2>Numbers</h2>
 
-        </ul>
-        <button id="numbers-action">Show Numbers</button>
-    
+        <ul id="numbers-display"></ul>
+
+
+        <button class="btn-paddingSmall" id="numbers-action">Numbers</button>
+        <h2>Languages</h2>
+
+        <ul id="language-names-display"></ul>
+
+
+        <button class="btn-paddingSmall" id="language-names-action">Language Names</button>
+        <h2>Language Popularity</h2>
+
+        <ul id="language-popularity-display"></ul>
+
+
+        <button class="btn-paddingSmall" id="language-popularity-action">Language Popularity</button>
+
     </main>
 
     <footer>

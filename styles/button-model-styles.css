@@ -94,3 +94,8 @@ div {
     border-radius: 10px;
     padding: 20px;
 }
+
+.twentyptfont {
+    font-size: 20pt;
+    font-style: italic;
+}
