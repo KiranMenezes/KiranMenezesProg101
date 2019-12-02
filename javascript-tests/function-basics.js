@@ -14,7 +14,14 @@ window.onload = () => {
     console.log('foo');
     functionCalls.onclick = () => {
         // Both these functions get their display control
-        simpleFunction();        
+        simpleFunction();
+        functionParameters("Many functions have parameters.");
+        var val = functionReturn();
+        console.log(val);
+
+        const functionReturnDisplay = document.getElementById("functionReturnDisplay");
+        functionReturnDisplay.textContent = val;
+
     };
 
     addToListAction.onclick = () => {
@@ -23,14 +30,34 @@ window.onload = () => {
 
         const data = nameDisplay.value;
         elfCode.appendToList(listDisplay, data);
+        }
+
+    const elfCode = {
+        appendToList: (list, value) => {
+            const li = document.createElement("li");
+            li.appendChild(document.createTextNode(value));
+            list.appendChild(li);
+        }
     }
+
 
     function simpleFunction() {
         const displayText = "Functions should consist of statements designed to perform a single task.";
         console.log(displayText);
 
-        const simpleFunctionDisplay = document.getElementById("simpleFunctionDisplay");    
+        const simpleFunctionDisplay = document.getElementById("simpleFunctionDisplay");
         simpleFunctionDisplay.textContent = displayText;
+    }
+
+    function functionParameters(value) {
+        console.log(value)
+
+        const functionParametersDisplay = document.getElementById("functionParameterDisplay");
+        functionParametersDisplay.textContent = value;
+    }
+
+    function functionReturn() {
+        return "Many functions return values.";
     }
 
 };
