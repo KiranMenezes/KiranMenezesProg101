@@ -6,8 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Threats to the Giant Pandas</title>
-    <link rel="stylesheet" href="../css/theme.homepage.midterm.css">
+    <link id="pagestyle" rel="stylesheet" href="../css/theme.homepage.midterm.css">
     <link rel="icon" type="image/png" href="../../favicon.png">
+    <script src="../../javascript-tests/final-alt-styles.js"></script>
 </head>
 
 <body class="resizeable">
@@ -69,8 +70,22 @@
             <button type="button" class="btn-padding-verbose"><a href="../index.html">Home Page</a></button>
             <button type="button" class="btn-padding-verbose"><a href="theme.aboutpage.midterm.html">About
                     Page</a></button>
-
         </nav>
+        <section id="form-selection">
+            <fieldset>
+                <legend>Alternative Styles</legend>
+                <form id="alt-styles" action="changeStyle">
+                    <input type="radio" id="style1" name="styles" value="Default" checked>
+                    <label for="style1">Default</label>
+
+                    <input type="radio" id="style2" name="styles" value="Alternative">
+                    <label for="style2">Alternative</label>
+                    <div>
+                        <input class="btn-padding" type="submit" value="Submit">
+                    </div>
+                </form>
+            </fieldset>
+        </section>
         <p>Copyright &copy; Reserved by Kiran Menezes</p>
     </footer>
 </body>

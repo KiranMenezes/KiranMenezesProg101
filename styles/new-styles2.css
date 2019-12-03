@@ -1,0 +1,61 @@
+header {
+    background-color: lightseagreen;
+}
+
+header p {
+    font-weight: normal;
+    color: orange;
+     text-align: left;
+}
+            
+
+.byline {
+    color: greenyellow;
+    font-style: oblique;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 100; 
+}
+
+main {
+    background-color: lightpink;
+}
+
+footer {
+    font-style: oblique;
+    background-color: darkorchid;
+    text-align: right;
+}
+
+footer ul {
+        text-align: left;
+}
+
+figure {
+    float: left;
+    background-color:skyblue;
+    border: black solid thin;
+    padding: 5px;   
+}  
+
+nav {        
+    background-color: aliceblue;
+    border: 1px purple solid;
+    padding: 8px;
+    margin: -1px 0px 0px 0px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+}
+
+nav li {
+    display: inline;
+    padding: 8px;    
+}
+
+body {
+    width: 500px;
+    }

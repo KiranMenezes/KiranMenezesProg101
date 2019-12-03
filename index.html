@@ -3,8 +3,9 @@
 
 <head>
     <title>Kiran's Home Page</title>
-    <link rel="stylesheet" href="styles/new-styles.css">
+    <link id="pagestyle" rel="stylesheet" href="styles/new-styles.css">
     <link rel="icon" type="image/png" href="favicon.png">
+    <script src="./javascript-tests/final-alt-styles.js"></script>
 </head>
 
 <body>
@@ -63,6 +64,21 @@
         <br />
     </main>
     <footer>
+        <section id="form-selection">
+            <fieldset>
+                <legend>Alternative Styles</legend>
+                <form id="alt-styles" action="changeStyle">
+                    <input type="radio" id="style1" name="styles" value="Default" checked>
+                    <label for="style1">Default</label>
+
+                    <input type="radio" id="style2" name="styles" value="Alternative">
+                    <label for="style2">Alternative</label>
+                    <div>
+                        <input class="btn-padding" type="submit" value="Submit">
+                    </div>
+                </form>
+            </fieldset>
+        </section>
         <p>Copyright &copy; Reserved by Kiran Menezes</p>
     </footer>
 </body>
