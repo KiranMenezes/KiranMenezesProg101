@@ -7,7 +7,7 @@ console.log(numbers);
 console.log('Fourth item;', numbers[3]);
 console.log(numbers[0]);
 console.log('Length:', numbers.length);
-console.log('Number 3:', numbers[numbers.length - 3];
+console.log('Number 3:', numbers[numbers.length - 3]);
 numbers.push(25);
 console.log(numbers);
 numbers.pop();
@@ -17,12 +17,10 @@ const cloudy = true;
 const items = [1, 'two', [3, 4], false, null];
 console.log(items);
 
-const items = [1, 'two', [3, 4], false, null];
 for (let i = 0; i < items.length; i++) {
     console.log(items[i]);
 }                    
 
-const numbers = [1, 2, 3, 4, 5, 8, 10];
 for (let number of numbers) {
     console.log(numbers);
 }          
@@ -39,12 +37,7 @@ arrayToString(["bundle.js", "*.js.map", ".c9"]);
 
     stringToArray("bundle.js, *.js.map, .c9");
  
-    const myObject = {};
-            
-    const myObject = {
-        five: 5,
-        six: 'six'
-    };
+    
     const myObject = {
         five: 5,
         six: 'six'
@@ -52,11 +45,7 @@ arrayToString(["bundle.js", "*.js.map", ".c9"]);
 
     console.log(myObject.five);
     console.log(myObject.six);
-
-    const myObject = {
-        five: 5,
-        six: 'six'
-    };            
+         
 
     myObject.newItem = 'This is a new item in my object.'
     console.log(myObject.five);
