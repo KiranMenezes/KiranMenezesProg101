@@ -7,7 +7,7 @@ console.log(numbers);
 console.log('Fourth item;', numbers[3]);
 console.log(numbers[0]);
 console.log('Length:', numbers.length);
-console.log('Number 3:', numbers[numbers.length - 3]);
+console.log('Number 3:', numbers[numbers.length - 3]); 
 numbers.push(25);
 console.log(numbers);
 numbers.pop();
